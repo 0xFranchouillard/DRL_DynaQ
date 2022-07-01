@@ -52,7 +52,7 @@ class SingleAgentEnv:
     def reset_random(self):
         pass
 
-def dyna_q(env: SingleAgentEnv, max_iter_count: int = 10000,
+def dyna_q(env: SingleAgentEnv, max_iter_count: int = 1000,
                gamma: float = 0.99,
                alpha: float = 0.1,
                epsilon: float = 0.2,
